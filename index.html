@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avika Sharma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header>
+      <h1>Avika Sharma</h1>
+      <p class="tagline">A passionate B.Tech CSE student with a knack for problem-solving and a love for technology.</p>
+      <nav aria-label="Page sections">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#weather">Weather</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <p id="placeholder-status" class="placeholder-status" hidden></p>
+
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>
+          I am a B.Tech 2nd year Computer Science student at JECRC University, Jaipur, aspiring to become a Software Engineer.
+           I am passionate about problem-solving, building real-world projects, and learning modern technologies like Data Structures, Web Development, and Al.
+            Currently I am focused on strengthening my fundamentals and building my skills through hands-on projects
+        </p>
+        <p>
+          Based in Jaipur, Rajasthan, I am pursuing a B.Tech in Computer Science and 
+          Engineering at JECRC University. I enjoy exploring technology and 
+          learning new skills.
+        </p>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>Communication</li>
+        </ul>
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <ul>
+          <li>
+      <a href="https://github.com/avika3103-cloud/MY_Reading_list">My reading list</a>
+            —A web application for keeping track of books read and 
+            saving reading progress,
+             built using HTML, CSS, and JavaScript.
+
+
+          </li>
+
+          <li>
+             <a href="https://PLACEHOLDER.example.com/project-two">quiz</a>
+            —A quiz-based web project built using HTML, JavaScript, and CSS, 
+            with the initial HTML and JavaScript developed independently and Cursor AI used to create the CSS styling.
+
+
+          </li>
+
+          <li>
+            <a href="https://github.com/avika3103-cloud/Buggy-python-25bcon1121">buggy python</a>
+            — A Python programming assignment focused on identifying and correcting errors in existing code.
+             The project also includes a test file to verify the corrected program's behavior and 
+             check whether it works as expected.
+          </li>
+
+          <li>
+            <a href="https://github.com/avika3103-cloud/python-basic-25bcon1121-struct-to-dict">python struct to library</a>
+            — It is a factorial basic programming exercises converted from C++ to Python,
+            the conversion of C++ structures into Python dictionaries..
+            </li>
+
+          </li>
+            <a href="https://github.com/avika3103-cloud/python_basic-25BCON1121">Factorial python</a>
+            — It is a factorial basic programming exercises converted from C++ to Python, 
+            covering  Factorial series generation.
+            </li>
+        </ul>
+      </li>
+      <a href="https://github.com/avika3103-cloud/python_basic-25BCON1121-fibonacci">Fibonacci python</a>
+      — It is a fibonacci basic programming exercises converted from C++ to Python, 
+      covering  Fibonacci series generation.
+      </li>
+    </li>
+    <a href="https://github.com/avika3103-cloud/messy_python_25bcon1121">Messy python</a>
+    — A Python program focused on improving the structure and 
+    readability of an existing messy Python program using Cursor AI, 
+    while preserving its original output and intended behavior.
+    </li>
+      </section>
+
+      <section id="weather" aria-labelledby="weather-heading">
+        <h2 id="weather-heading">Weather</h2>
+        <form id="weather-form">
+          <label for="weather-city">Search by city</label>
+          <div class="weather-search">
+            <input
+              id="weather-city"
+              name="city"
+              type="search"
+              placeholder="e.g. Jaipur"
+              autocomplete="address-level2"
+              required
+            />
+            <button type="submit">Search</button>
+          </div>
+        </form>
+        <p id="weather-status" class="weather-status" role="status"></p>
+        <dl id="weather-result" class="weather-result" hidden>
+          <div>
+            <dt>Temperature</dt>
+            <dd id="weather-temp"></dd>
+          </div>
+          <div>
+            <dt>Conditions</dt>
+            <dd id="weather-conditions"></dd>
+          </div>
+          <div>
+            <dt>Wind speed</dt>
+            <dd id="weather-wind"></dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Contact:
+        <a href="mailto:PLACEHOLDER@example.com">avikasharma3103@gmail.com</a>
+      </p>
+      <p>
+        <small>
+          &copy; <span id="year"></span> Avika Sharma. All rights
+          reserved.
+        </small>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
